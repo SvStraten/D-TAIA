@@ -1,0 +1,33 @@
+# --- Secrets: never track these ---
+.env
+.env.*
+*.key
+*.pem
+ 
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+ 
+# --- IDE ---
+.idea/
+.vscode/
+ 
+# --- Data & model artifacts (regenerable, often large) ---
+data_functions/raw_data/
+models/
+results/
+faiss_indices/
+logs/
+*.faiss
+*.npz
+ 
+# Keep the small log-statistics summary tracked:
+!data_functions/clean_data/event_log_summary.csv
+ 
+# --- OS ---
+.DS_Store
