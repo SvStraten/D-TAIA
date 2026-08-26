@@ -3,6 +3,8 @@
 Code for the ECML-PKDD AI4PM workshop paper *"D-TAIA: Domain-Aware LLM
 Adaptation for Multi-Task Predictive Process Monitoring."*
 
+![Architecture](architecture.png)
+
 ## Prerequisites
 
 | Requirement | Version |
